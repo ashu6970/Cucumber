@@ -1,0 +1,100 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Login with positive credential",
+        "description": "",
+        "id": "login-with-multiple-users;login-with-positive-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1855108,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to login with positive credential",
+            "match": {
+              "location": "Login.iWantLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 568335,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Atleast two user able to login",
+            "match": {
+              "location": "Login.twoUsers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 618369,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter the password and email",
+            "match": {
+              "location": "Login.enterPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 570473,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should be able to login",
+            "match": {
+              "location": "Login.userAbleToLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 545243,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should able to see the dashboard",
+            "match": {
+              "location": "Login.dashboard()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login with multiple users",
+    "description": "",
+    "id": "login-with-multiple-users",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
