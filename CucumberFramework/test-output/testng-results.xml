@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I open the Browser (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I navigate to website URL (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter the username and password (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on continue button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User should able to login (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1247" started-at="2019-05-22T12:47:26Z" finished-at="2019-05-22T12:47:27Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.Runner@13deb50e]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="1247" started-at="2019-05-22T12:47:26Z" finished-at="2019-05-22T12:47:27Z">
+      <class name="com.runner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.Runner@13deb50e]" name="setUpClass" is-config="true" duration-ms="577" started-at="2019-05-22T12:47:26Z" finished-at="2019-05-22T12:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.Runner@13deb50e]" name="runScenario" duration-ms="292" started-at="2019-05-22T12:47:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-05-22T12:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the functionality of login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I open the Browser (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I navigate to website URL (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter the username and password (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on continue button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User should able to login (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.Runner@13deb50e]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2019-05-22T12:47:27Z" finished-at="2019-05-22T12:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
